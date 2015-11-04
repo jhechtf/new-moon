@@ -8,6 +8,12 @@ Most of the dark themes I tried using were distracting and overly colorful and c
 
 **[Official Brackets Registry](http://brackets.dnbard.com/extension/new-moon)**
 
+**Installation**
+
+* Go to `File > Extension Manager`
+* Search for `New Moon`
+* Click `Install`
+
 ## HTML
 ![HTML Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/html.png)
 
@@ -29,8 +35,3 @@ Most of the dark themes I tried using were distracting and overly colorful and c
 ## JavaScript
 ![JS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/js.png)
 
-**Installation**
-
-* Go to `File > Extension Manager`
-* Search for `New Moon`
-* Click `Install`
