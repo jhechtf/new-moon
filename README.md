@@ -6,6 +6,8 @@ This theme was created to be optimized for front end web development - HTML, CSS
 
 Most of the dark themes I tried using were distracting and overly colorful and contrast heavy, especially with PHP embedded into HTML. The New Moon theme strives to remedy that, with a theme that is pleasant to view in any language.
 
+**[Official Brackets Registry](http://brackets.dnbard.com/extension/new-moon)**
+
 ## HTML
 ![HTML Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/html.png)
 
