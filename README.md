@@ -1,6 +1,9 @@
 New Moon Theme for Brackets
 ===========================
-**New Moon is now available for [Sublime Text](https://github.com/taniarascia/new-moon-sublime) and [Atom](https://github.com/taniarascia/new-moon-atom-syntax)!**
+
+**Now available as a [multi theme pack extension!](https://github.com/taniarascia/new-moon-themes) Check it out!**
+
+**New Moon is also available for [Sublime Text](https://github.com/taniarascia/new-moon-sublime) and [Atom](https://github.com/taniarascia/new-moon-atom-syntax)!**
 
 *Updated 11/11/15 - Improvements to colors and legibility*
 
