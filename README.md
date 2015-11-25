@@ -5,7 +5,7 @@ New Moon Theme for Brackets
 
 **New Moon is also available for [Sublime Text](https://github.com/taniarascia/new-moon-sublime) and [Atom](https://github.com/taniarascia/new-moon-atom-syntax)!**
 
-*Updated 11/11/15 - Improvements to colors and legibility*
+*Updated 11/25/15 - Fixed issue with searching for PHP tags*
 
 This theme was created to be optimized for front end web development - HTML, CSS, JavaScript and PHP/Wordpress. It's a middle-contrast dark theme using color inspiration from Tomorrow Night Eighties, and style inspiration from Twilight. 
 
