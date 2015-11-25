@@ -26,17 +26,22 @@ Most of the dark themes I tried using were distracting and overly colorful and c
 ![PHP Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/php.png)
 
 ## PHP/HTML
-![PHP Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/phphtml.png)
+![PHP Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/htmlpng.png)
 
 ## CSS
 ![CSS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/css.png)
 
-## Sass
-![CSS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/sass.png)
+## Sass/SCSS
+![SCSS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/scss.png)
 
 ## LESS
-![CSS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/less.png)
+![LESS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/less.png)
 
 ## JavaScript
 ![JS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/js.png)
 
+## jQuery
+![jQuery Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/jquery.png)
+
+## Markdown
+![MD Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/md.png)
