@@ -26,7 +26,7 @@ Most of the dark themes I tried using were distracting and overly colorful and c
 ![PHP Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/php.png)
 
 ## PHP/HTML
-![PHP Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/htmlpng.png)
+![PHP Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/htmlphp.png)
 
 ## CSS
 ![CSS Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/css.png)
