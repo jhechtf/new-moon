@@ -8,7 +8,7 @@
 
 /* Colors */
 
-@dark: #141414;
+@dark: rgba(0, 0, 0, 0.7);
 @light: #f7f7f7;
 @green: #94C7B5;
 @darkblue: #63A1C2;
@@ -26,15 +26,15 @@
 
 /* Editor styling */
 
-@background: #373838; // Code background
-@foreground: #cdcdcd; // Code foreground
-@comment: #85878a; // Comment color
-@comment-active: #aaaaaa; // Comment active
+@background: #3C3F41; // Code background
+@foreground: #c4c5c6; // Code foreground
+@comment: #8a8b8d; // Comment color
+@comment-active: #b1b2b3; // Comment active
 @cursor: #ffffff; // Cursor color 
 @activeline-background: rgba(0, 0, 0, 0.2); // Active line
 @activeline-foreground: rgba(0, 0, 0, 0.3);
 @matchingtag-background: rgba(0, 0, 0, 0.7); // Matching tag
-@selected-background: rgba(0, 0, 0, 0.5); // Selected text
+@selected-background: rgba(255, 255, 255, 0.08); // Selected text
 @matchingbracket-background: rgba(255, 255, 255, .2); // Matching bracket
 
 /* Inline styling */
@@ -71,14 +71,14 @@ span.cm-variable-3, span.cm-def { color: @variable; } // Variable
 .cm-operator { color: @operator; } // Math
 .cm-string { color: @string; } // String
 .cm-string-2 { color: @string; }
-.cm-meta { 	background-color: @meta; 	color: @meta-color; } // Meta
+.cm-meta { 	background: @meta; 	color: @meta-color; } // Meta
 .cm-builtin { color: @id; } // Built in and id
 .cm-tag { color: @tag; } // Tag
 .cm-attribute { color: @attribute; } // Attribute
 .cm-header { color: @attribute; } // Header
 .cm-hr { color: @comment; }
 .cm-link { color: @operator; }
-.cm-error { color: @error; }
+.cm-error { color: @error; background: RGBA(245, 119, 120, .1); }
 .cm-qualifier { color: @qualifier; } // Qualifier
 .cm-property { color: @property; } // Property
 .cm-quote { color: @keyword } // Quote
