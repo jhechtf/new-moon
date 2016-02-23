@@ -1,5 +1,8 @@
-New Moon Theme for Brackets
+New Moon Color Scheme for Brackets
 ===========================
+###[Beautiful Syntax Highlighting](http://taniarascia.github.io/new-moon/)
+
+![New Moon Icon](https://raw.githubusercontent.com/taniarascia/new-moon/master/images/newmoon.png)
 
 **Now available as a [multi theme pack extension!](https://github.com/taniarascia/new-moon-themes) Check it out!**
 
