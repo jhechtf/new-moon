@@ -10,25 +10,25 @@
 
 @dark: rgba(0, 0, 0, 0.7);
 @light: #f7f7f7;
-@green: #94C7B5;
-@darkblue: #63A1C2;
-@aqua: #8ADDF4;
+@green: #A8D3A9;
+@darkblue: #78AAD6;
+@aqua: #76D4D6;
 @white: #ffffff;
-@orangered: #FF9B62;
-@lightblue: #8FBBD2;
+@orangered: #ED9963;
+@lightblue: #D6ACD6;
 @yellow: #ffeead;
 @beige: #cda869;
-@purple: #cc99cc;
-@orange: #e3c485;
+@purple: #D6ACD6;
+@orange: #FFD479;
 @gray: #d4d4d4;
-@red: #f2777a;
+@red: #F78D8C;
 @bracketcolor: @darkblue;
 
 /* Editor styling */
 
-@background: #3C3F41; // Code background
-@foreground: #c4c5c6; // Code foreground
-@comment: #8a8b8d; // Comment color
+@background: #393939; // Code background
+@foreground: #D5D5D5; // Code foreground
+@comment: #A9A9A9; // Comment color
 @comment-active: #b1b2b3; // Comment active
 @cursor: #ffffff; // Cursor color 
 @activeline-background: rgba(0, 0, 0, 0.2); // Active line
@@ -56,6 +56,20 @@
 @error: @red; // Error!
 
 /* Styles */
+
+.dark #status-bar {
+    /* Bottom status bar */
+    border-top: 1px solid #484b4d;
+    background: #3C3F41;
+    color: #FFF;
+}
+.dark #main-toolbar {
+    background: #3C3F41;
+}
+.dark .inline-widget {
+    /* Quick-edit styles */
+    background: rgb(51, 51, 51);
+}
 
 .CodeMirror, .CodeMirror-scroll { background: @background; color: @foreground; } // Overlay
 .CodeMirror-selected { background: @selected-background !important; } // Selected text
