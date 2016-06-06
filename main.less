@@ -1,28 +1,24 @@
-// out: null
-
-/**  
-* New Moon Theme for Brackets
+/*! New Moon Theme for Brackets
 * by Tania Rascia!
 **/
 
 
 /* Colors */
 
-@dark: rgba(0, 0, 0, 0.7);
+@white: #ffffff;
 @light: #f7f7f7;
+@gray: #d4d4d4;
+@dark: rgba(0, 0, 0, 0.7);
 @green: #A8D3A9;
 @darkblue: #78AAD6;
 @aqua: #76D4D6;
-@white: #ffffff;
 @orangered: #ED9963;
-@lightblue: #D6ACD6;
-@yellow: #ffeead;
+@yellow: #ffeea6;
 @beige: #cda869;
 @purple: #D6ACD6;
 @orange: #FFD479;
-@gray: #d4d4d4;
 @red: #F78D8C;
-@bracketcolor: @darkblue;
+
 
 /* Editor styling */
 
@@ -44,7 +40,7 @@
 @variable: @aqua; // Variable
 @variable2: @light; // Alternate variable
 @number: @orangered; // Number
-@definition: @lightblue; // CSS value
+@definition: @purple; // CSS value
 @keyword: @yellow; // CSS !important, JavaScript variable definition
 @operator: @beige; // Math
 @meta: @dark; // DOCTYPE and PHP background
@@ -57,21 +53,7 @@
 
 /* Styles */
 
-.dark #status-bar {
-    /* Bottom status bar */
-    border-top: 1px solid #484b4d;
-    background: #3C3F41;
-    color: #FFF;
-}
-.dark #main-toolbar {
-    background: #3C3F41;
-}
-.dark .inline-widget {
-    /* Quick-edit styles */
-    background: rgb(51, 51, 51);
-}
-
-.CodeMirror, .CodeMirror-scroll { background: @background; color: @foreground; } // Overlay
+.CodeMirror, .CodeMirror-scroll { background: @background; color: @foreground; line-height: 1.3; } // Overlay
 .CodeMirror-selected { background: @selected-background !important; } // Selected text
 .CodeMirror-linenumber { color: @comment; } // Line numbers
 .cm-comment { color: @comment; }
@@ -80,7 +62,8 @@
 .cm-number { color: @number; } // Number
 .cm-def {	color: @definition; } // Definition
 .cm-variable { color: @variable2; } // Variable
-span.cm-variable-2, span.cm-tag { color: @tag; } // Tag and variable
+span.cm-variable-2 { color: @red } // Variable 2
+span.cm-tag { color: @tag; } // Tag
 span.cm-variable-3, span.cm-def { color: @variable; } // Variable
 .cm-operator { color: @operator; } // Math
 .cm-string { color: @string; } // String
@@ -96,7 +79,6 @@ span.cm-variable-3, span.cm-def { color: @variable; } // Variable
 .cm-qualifier { color: @qualifier; } // Qualifier
 .cm-property { color: @property; } // Property
 .cm-quote { color: @keyword } // Quote
-
 
 /* Additional styles */
 
@@ -120,21 +102,7 @@ span.cm-variable-3, span.cm-def { color: @variable; } // Variable
 .CodeMirror .CodeMirror-gutters { background-color: @background; border-right: 0; }
 .CodeMirror-gutter-elt { color: @comment !important; }
 .CodeMirror-activeline .CodeMirror-gutter-elt { color: #fff !important; }
-
 .CodeMirror .CodeMirror-linenumber { color: @activeline-foreground; }
-.CodeMirror-activeline-background, .CodeMirror-activeline .CodeMirror-gutter-elt {
-	background: @activeline-background !important;
-}
-/* 
-span.cm-bracket {
-  color: @bracketcolor !important;
-}
-*/
-.cm-meta.CodeMirror-searching {
-  background: #f5ee92 !important;
-  color: #4e4225 !important;
-}
-.cm-meta.CodeMirror-searching.searching-current-match {
-  background: #f5ee92 !important;
-  color: #4e4225 !important;
-} 
+.CodeMirror-activeline-background, .CodeMirror-activeline .CodeMirror-gutter-elt { background: @activeline-background !important; }
+.cm-meta.CodeMirror-searching { background: #f5ee92 !important; color: #4e4225 !important; }
+.cm-meta.CodeMirror-searching.searching-current-match { background: #f5ee92 !important; color: #4e4225 !important; } 
