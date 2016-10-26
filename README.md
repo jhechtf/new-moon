@@ -1,5 +1,5 @@
-New Moon Color Scheme for Brackets
-===========================
+# New Moon Color Scheme for Brackets
+
 ###[Beautiful Syntax Highlighting](http://taniarascia.github.io/new-moon/)
 
 ![New Moon Icon](https://raw.githubusercontent.com/taniarascia/new-moon/master/images/newmoon.png)
@@ -48,3 +48,7 @@ Most of the dark themes I tried using were distracting and overly colorful and c
 
 ## Markdown
 ![MD Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/md.png)
+
+## License
+
+The code is open source and available under the [MIT License](LICENSE.md).
