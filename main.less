@@ -56,7 +56,7 @@
 .CodeMirror, .CodeMirror-scroll { background: @background; color: @foreground; line-height: 1.3; } // Overlay
 .CodeMirror-selected { background: @selected-background !important; } // Selected text
 .CodeMirror-linenumber { color: @comment; } // Line numbers
-.cm-comment { color: @comment; }
+.cm-comment { color: @comment !important; }
 .cm-keyword { color: @keyword; } // Keyword
 .cm-atom { color: @definition; } // Definition
 .cm-number { color: @number; } // Number
@@ -79,7 +79,13 @@ span.cm-variable-3, span.cm-def { color: @variable; } // Variable
 .cm-qualifier { color: @qualifier; } // Qualifier
 .cm-property { color: @property; } // Property
 .cm-quote { color: @keyword } // Quote
-
+.cm-link, .cm-link.cm-variable-2 { color: @darkblue !important } // Links
+.cm-em { color: @purple } // Italic
+.cm-strong { color: @orangered } // Bold
+.cm-image { color: @darkblue } // Image
+.cm-image-marker { color: @purple }
+.cm-header { color: @orange }
+.cm-string.cm-variable-2.cm-url { color: @green }
 /* Additional styles */
 
 .CodeMirror-matchingbracket { // Matching bracket

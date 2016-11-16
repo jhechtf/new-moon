@@ -1,4 +1,5 @@
-# New Moon Color Scheme for Brackets
+New Moon Color Scheme for Brackets
+===========================
 
 ###[Beautiful Syntax Highlighting](http://taniarascia.github.io/new-moon/)
 
@@ -8,7 +9,7 @@
 
 **New Moon is also available for [Sublime Text](https://github.com/taniarascia/new-moon-sublime) and [Atom](https://github.com/taniarascia/new-moon-atom-syntax)!**
 
-*Updated 6/6/16 - Big change - variables are red! This makes definition between PHP and HTML easier without being overwhelming. New screenshots soon. *
+*Updated 11/16/16 - Markdown now has styling!*
 
 This theme was created to be optimized for front end web development - HTML, CSS, JavaScript and PHP/Wordpress. It's a middle-contrast dark theme using color inspiration from Tomorrow Night Eighties, and style inspiration from Twilight. 
 
@@ -48,7 +49,3 @@ Most of the dark themes I tried using were distracting and overly colorful and c
 
 ## Markdown
 ![MD Screenshot](https://github.com/taniarascia/new-moon/blob/master/images/md.png)
-
-## License
-
-The code is open source and available under the [MIT License](LICENSE.md).
