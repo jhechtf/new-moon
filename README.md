@@ -1,6 +1,6 @@
 # New Moon Color Scheme for Brackets
 
-###[Beautiful Syntax Highlighting](https://taniarascia.github.io/new-moon/)
+### [Beautiful Syntax Highlighting](https://taniarascia.github.io/new-moon/)
 
 ![New Moon Icon](https://raw.githubusercontent.com/taniarascia/new-moon/master/images/newmoon.png)
 
