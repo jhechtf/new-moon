@@ -27,7 +27,7 @@ Purple | ![#D6ACD6](https://placehold.it/15/D6ACD6/000000?text=+) `#D6ACD6`
 
 ## Screenshot
 
-![New Moon Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon/master/images/screenshot.png)
+![New Moon Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon/master/images/screenshot-brackets.png)
 
 ## Installation
 
